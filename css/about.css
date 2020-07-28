@@ -1,0 +1,79 @@
+/*header*/
+.about-btn{
+ color: #fb8c00;
+ font-weight: 400;
+}
+/*top*/
+.top{
+ margin-bottom: 200px;
+}
+.top-name{
+ margin-bottom: 40px;
+}
+
+/*about*/
+.about-me{
+ margin: 0 0 160px 15%;
+ display: flex;
+}
+.line-about{
+ width: 3px;
+ height: 160px;
+ background-color: #fb8c00;
+}
+.my-profile{
+ margin-left: 80px;
+}
+.name-furigana{
+ justify-content: left;
+ font-weight: 300;
+}
+.name{
+ justify-content: left;
+}
+.univ{
+ margin-bottom: 40px;
+ text-align: left;
+}
+.sentence-about{
+ width: 400px;
+ font-size: 16px;
+}
+.twitter{
+ color: #333;
+}
+.top-image{
+ width: 600px;
+ margin-left: 120px;
+ opacity: 0.1;
+ position: static;
+}
+
+/*skill*/
+.skill{
+ margin-bottom: 160px;
+}
+.title-sentence-skill{
+ width: 170px;
+ font-size: 40px;
+ font-weight: 300;
+ letter-spacing: 16px;
+ margin: 0 40px;
+}
+.contents-skill{
+ display: flex;
+ justify-content: center;
+}
+.use{
+ margin: 0 80px;
+ text-align: center;
+}
+.title-skill{
+ font-size: 20px;
+ font-weight: 600;
+ margin-bottom: 32px;
+}
+.content-skill{
+ font-size: 16px;
+ font-weight: 600;
+}
