@@ -39,8 +39,12 @@
  width: 400px;
  font-size: 16px;
 }
-.twitter{
+.sns-btn{
  color: #333;
+ margin-right: 24px;
+}
+.sns{
+ display: flex;
 }
 .top-image{
  width: 600px;
