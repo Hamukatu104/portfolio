@@ -238,6 +238,9 @@ header{
 .img-work{
  width: 300px;
 }
+.instead{
+ opacity: 0.2;
+}
 
 /*CONTACT*/
 .contact{
