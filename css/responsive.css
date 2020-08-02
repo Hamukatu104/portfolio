@@ -9,7 +9,7 @@
    display: none;
   }
   .top{
-   margin: 80px 0 200px 80px;
+   margin: 40px 0 200px 40px;
   }
  .sub-title1,.sub-title2{
   font-size: 16px;
@@ -45,17 +45,14 @@
  .univ{
   margin-bottom: 40px;
  }
+ .more-info{
+  text-decoration: underline;
+ }
 
  .title-sentence-works{
   width: 150px;
   font-size: 24px;
   margin: 0 24px;
- }
- .work{
-  
- }
- .img-work{
-  
  }
 
  .contact{
@@ -66,12 +63,11 @@
   font-size: 24px;
   margin: 0 24px;
  }
- .icons{
-  display: inline-block;
-  text-align: center;
- }
  .icon{
-  margin: 24px;
+  width: 40px;
+ }
+ .btn-contact{
+  margin: 16px;
  }
 
 }
