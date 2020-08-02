@@ -3,6 +3,7 @@ body{
  font-family: 'Roboto', sans-serif;
  background-color:#fafafa;
  color: #333;
+
 }
 
 /*ヘッダー*/
@@ -208,6 +209,7 @@ header{
 }
 .work{
  width: 300px;
+ min-width: 300px;
  height: 200px;
  overflow: hidden;
  position: relative;
