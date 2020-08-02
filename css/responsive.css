@@ -54,6 +54,11 @@
   font-size: 24px;
   margin: 0 24px;
  }
+ .work .mask{
+  opacity: 1;
+  padding-top: 60px;
+  background-color: rgba(0, 0, 0, 0.7);
+ }
 
  .contact{
   margin-bottom: 64px;
