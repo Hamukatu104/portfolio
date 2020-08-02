@@ -5,6 +5,8 @@
 }
 
 @media screen and (max-width: 415px){
+
+  /*topページ*/
   header{
    display: none;
   }
@@ -75,4 +77,33 @@
   margin: 16px;
  }
 
+ /*about*/
+ .about-me{
+  margin-left: 5%;
+ }
+ .my-profile{
+  margin-left: 32px;
+ }
+ .line-about{
+  height: 100px;
+ }
+ .title-sentence-skill{
+  width: 130px;
+  font-size: 24px;
+  margin: 0 24px;
+ }
+ .sentence-about{
+  width: 300px;
+ }
+ .contents-skill{
+  display: block;
+  margin: 0 auto;
+ }
+ .title-skill{
+  margin-bottom: 0;
+ }
+ .use{
+  margin: 56px 0;
+  text-align: center;
+ }
 }
