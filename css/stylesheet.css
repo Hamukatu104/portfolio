@@ -1,7 +1,6 @@
 body{
  margin:0;
  font-family: 'Roboto', sans-serif;
- position: relative;
  background-color:#fafafa;
  color: #333;
 }
@@ -40,7 +39,7 @@ header{
 }
 .header-btn::after {
  position: absolute;
- bottom: -4px;
+ bottom: 0px;
  left: 0;
  content: '';
  width: 100%;
