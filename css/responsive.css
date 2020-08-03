@@ -6,13 +6,16 @@
 
 @media screen and (max-width: 415px){
 
-  /*topページ*/
-  header{
-   display: none;
-  }
-  .top{
-   margin: 40px 0 200px 40px;
-  }
+ /*topページ*/
+ header{
+  display: none;
+ }
+ #wrapper .btn-gnavi{
+  display: inline;
+ }
+ .top{
+  margin: 120px 0 80px 40px;
+ }
  .sub-title1,.sub-title2{
   font-size: 16px;
  }
@@ -106,4 +109,8 @@
   margin: 56px 0;
   text-align: center;
  }
+
+  /*works*/
+ 
+
 }
