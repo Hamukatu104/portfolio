@@ -4,11 +4,14 @@
  }
 }
 
-@media screen and (max-width: 415px){
+@media screen and (max-width: 480px){
 
  /*topページ*/
  header{
   display: none;
+ }
+ .head{
+  display: inline;
  }
  #wrapper .btn-gnavi{
   display: inline;
