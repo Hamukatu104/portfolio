@@ -37,6 +37,7 @@ header{
  color: #333;
  line-height: 50px;
  position: relative;
+ letter-spacing: 8px;
 }
 .header-btn::after {
  position: absolute;
@@ -68,74 +69,75 @@ header{
 }
 
 #wrapper nav {
-  position: fixed;
-  top: 0;
-  right: -250px;
-  width: 250px;
-  height: 100%;
-  padding-top: 50px;
-  background:#333;
-  font-size: 16px;
-  box-sizing: border-box;
-  z-index: 2;
-  opacity: 0.95;
-  
+ position: fixed;
+ top: 0;
+ right: -250px;
+ width: 250px;
+ height: 100%;
+ padding-top: 50px;
+ background:#333;
+ font-size: 16px;
+ box-sizing: border-box;
+ z-index: 2;
+ opacity: 0.95;
 }
 #wrapper nav ul li {
-  display:block;
-  padding: 24px 28px;
+ display:block;
+ padding: 24px 28px;
 }
 #wrapper nav ul li a {
-  text-decoration: none;
-  color: #fafafa;
+ text-decoration: none;
+ color: #fafafa;
+ font-weight: 300;
+ letter-spacing: 8px;
 }
 #wrapper .btn-gnavi {
-  position: fixed;
-  top: 24px;
-  left: 24px;
-  width: 30px;
-  line-height: 24px;
-  z-index: 3;
-  box-sizing: border-box;
-  cursor: pointer;
-  -webkit-transition: all 400ms;
-  transition: all 400ms;
-  display: none;
+ position: fixed;
+ top: 24px;
+ left: 24px;
+ width: 30px;
+ line-height: 24px;
+ z-index: 3;
+ box-sizing: border-box;
+ cursor: pointer;
+ -webkit-transition: all 400ms;
+ transition: all 400ms;
+ display: none;
 }
 #wrapper .btn-gnavi span {
-  position: absolute;
-  width: 30px;
-  height: 3px;
-  background: #666;
-  border-radius: 8px;
-  -webkit-transition: all 400ms;
-  transition: all 400ms;
+ position: absolute;
+ width: 30px;
+ height: 3px;
+ background: #666;
+ border-radius: 8px;
+ -webkit-transition: all 400ms;
+ transition: all 400ms;
 }
 #wrapper .btn-gnavi span:nth-child(1) {
-  top: 0;
+ top: 0;
 }
 #wrapper .btn-gnavi span:nth-child(2) {
-  top: 10px;
+ top: 10px;
 }
 #wrapper .btn-gnavi span:nth-child(3) {
-  top: 20px;
+ top: 20px;
 }
 #wrapper .btn-gnavi.open span {
-  width: 24px;
+ width: 24px;
 }
 #wrapper .contents section p {
-  position: absolute;
-  top: 50%;
-  width: 30%;
-  line-height: 1.4;
-  font-size: 20px;
-  color: #fff;
+ position: absolute;
+ top: 50%;
+ width: 30%;
+ line-height: 1.4;
+ font-size: 20px;
+ color: #fff;
 }
 #wrapper .contents section:nth-child(odd) p {
-  left: 10%;
+ left: 10%;
 }
 #wrapper .contents section:nth-child(even) p {
-  right: 10%;
+ right: 10%;
 }
 
 
