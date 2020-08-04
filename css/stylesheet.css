@@ -54,10 +54,6 @@ header{
 .header-btn:hover::after {
  transform: scale(1, 1);
 }
-
-
-
-
 .head{
  width: 100%;
  height: 60px;
@@ -67,7 +63,6 @@ header{
  z-index: 2;
  display: none;
 }
-
 #wrapper nav {
  position: fixed;
  top: 0;
@@ -139,21 +134,7 @@ header{
 #wrapper .contents section:nth-child(even) p {
  right: 10%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*////////////*/
-
 
 /*コンテンツ*/
 
@@ -337,9 +318,6 @@ header{
 }
 .img-work{
  width: 300px;
-}
-.instead{
- opacity: 0.2;
 }
 
 /*CONTACT*/
