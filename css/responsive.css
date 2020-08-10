@@ -4,7 +4,7 @@
  }
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 500px){
 
  /*topページ*/
  header{
@@ -114,6 +114,19 @@
  }
 
   /*works*/
- 
-
+ .contents{
+  display: inline;
+ }
+ .work-info{
+  margin: 80px 32px;
+ }
+ .work-image{
+  display: none;
+ }
+ .tea-image{
+  display: inline;
+  width: 80%;
+  text-align: center;
+  margin: 160px 0 0 32px;
+ }
 }
