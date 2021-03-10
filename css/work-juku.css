@@ -1,0 +1,57 @@
+.service-title{
+ padding: 120px 0;
+ margin: 0;
+}
+.service{
+ font-size: 20px;
+ text-align: center;
+}
+.service-name{
+ font-size: 32px;
+ margin: 16px 0;
+ font-weight: 600;
+
+ text-align: center;
+}
+.line-work{
+ margin: 0 auto;
+ background-color: #009688;
+}
+.contents{
+ justify-content: center;
+ margin: 0 0 80px 0;
+}
+.work-image{
+ width: 358px;
+ height: 300px;
+ margin: 0;
+ }
+ .sentence-right{
+  margin: 24px 0 0 80px;
+ }
+ .sentence-left{
+  margin: 24px 80px 0 0;
+ }
+ .content-title{
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: 600;
+ }
+ .work-detail{
+  width: 400px;
+  margin: 0 0 24px 0;
+  line-height: 32px;
+ }
+ .work-info-btn{
+  background-color: #009688;
+ }
+
+
+
+ @media screen and (max-width: 500px){
+
+  .work-image{
+   display: inline;
+  }
+ }
