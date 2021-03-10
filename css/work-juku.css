@@ -45,8 +45,14 @@
  }
  .work-info-btn{
   background-color: #009688;
+  color: #fff;
  }
-
+ .work-info-btn :hover{
+  background-color: #fff;
+  color: #009688;
+  border: solid 2px #009688;
+  border-radius: 4px;
+ }
 
 
  @media screen and (max-width: 500px){

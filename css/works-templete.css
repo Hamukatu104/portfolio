@@ -40,12 +40,15 @@
 .work-info-btn{
  width: 160px;
  height: 40px;
- font-size: 14px;
  background-color: #fb8c00;
  display: inline-block;
  text-decoration: none;
  color: #fafafa;
+ border-radius: 4px;
+}
+.work-info-text{
+ font-size: 14px;
+ margin: 0;
  text-align: center;
  line-height: 40px;
- border-radius: 4px;
 }
