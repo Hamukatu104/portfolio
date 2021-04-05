@@ -23,8 +23,18 @@
 }
 .work-image{
  width: 358px;
- height: 300px;
+ height: auto;
  margin: 0;
+ }
+ .work-image-hp{
+  width: 358px;
+  height: auto;
+  margin: 0;
+ }
+ .work-image-function{
+  width: 500px;
+  height: auto;
+  border: solid 2px #f5f5f5;
  }
  .sentence-right{
   margin: 24px 0 0 80px;
@@ -52,12 +62,4 @@
   color: #009688;
   border: solid 2px #009688;
   border-radius: 4px;
- }
-
-
- @media screen and (max-width: 500px){
-
-  .work-image{
-   display: inline;
-  }
  }

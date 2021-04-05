@@ -115,13 +115,39 @@
 
   /*works*/
  .contents{
-  display: inline;
+   width: 90%;
+   margin: 0 auto;
+  margin-left: 24px;
+  margin-bottom: 80px;
+  flex-direction:column;
+ }
+ .contents-hp{
+  
  }
  .work-info{
   margin: 80px 32px;
+  display: inline-block;
+ }
+ .work-image-hp{
+  display: none;
  }
  .work-image{
-  display: none;
+  order: 1;
+  width: 300px;
+  height: auto;
+ }
+ .work-image-function{
+  width: 350px;
+ }
+ .sentence-right{
+  margin-left: 0;
+  text-align: left;
+  order: 2;
+ }
+ .sentence-left{
+  margin-left: 0;
+  text-align: left;
+  order: 2;
  }
  .tea-image{
   display: inline;

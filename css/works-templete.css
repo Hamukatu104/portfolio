@@ -3,10 +3,13 @@
  display: flex;
  justify-content: center;
 }
-.work-image{
- width: 40%;
- height: 40%;
- border: solid 2px #f5f5f5;
+.contents-hp{
+ margin: 180px 0;
+ display: flex;
+ justify-content: center;
+}
+.work-image-hp{
+ width: 500px;
 }
 .work-info{
  width: 400px;
