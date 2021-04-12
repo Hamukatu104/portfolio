@@ -8,8 +8,18 @@
  display: flex;
  justify-content: center;
 }
+.work-image{
+ width: 350px;
+ border: solid 2px #f5f5f5;
+}
 .work-image-hp{
  width: 500px;
+ border: solid 2px #f5f5f5;
+}
+.tea-image{
+ width: 350px;
+ height: 300px;
+ border: solid 2px #f5f5f5;
 }
 .work-info{
  width: 400px;
